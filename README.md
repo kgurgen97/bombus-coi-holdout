@@ -1,5 +1,7 @@
 # bombus-coi-holdout
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22996972.svg)](https://doi.org/10.5281/zenodo.22996972)
+
 Code and data for the paper *Geographic hold-out reveals turnover hidden by aggregate COI identification accuracy in bumblebees*.
 
 When the region a specimen comes from is missing from the reference library, COI identification can look as accurate as before and still give different answers for many specimens. Losing close relatives of the query's own species turns some correct answers into wrong ones. Losing competing species turns some ambiguous answers into correct ones. The two effects almost cancel in the overall numbers. In *Bombus*, the net change is close to zero while about a fifth of the queries (species-weighted) change outcome.
