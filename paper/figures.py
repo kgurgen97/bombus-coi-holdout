@@ -184,7 +184,7 @@ def fig3():
         ax.text(uw + 0.5, y + 0.15, f"{uw:.1f}", fontsize=6, va="center"); ax.text(au + 0.5, y - 0.15, f"{au:.1f}", fontsize=6, va="center")
     ax.set_xlabel("% of queries", fontsize=7)
     ax.set_title("b  U→W (red) and A→U (blue)", loc="left", fontsize=8.5)
-    fig.text(0.01, -0.03, "* extra set (pre-registered stop rule). Core set: 7 genera, 3 orders. Signs of the two components follow "
+    fig.text(0.01, -0.03, "* extra set (added by a stop rule fixed before download). Core set: 7 genera, 3 orders. Signs of the two components follow "
              "from the nearest-neighbour rule; magnitudes, net and transitions are the result.", fontsize=6.5, color=INK2)
     save(fig, "Fig3_components_genera")
 
@@ -308,7 +308,7 @@ def figS_calibration():
         ax.plot([0, 1], [0, 1], color="#999", lw=0.8, ls="--"); ax.set_title(t, loc="left", fontsize=8.5)
         ax.set_xlabel("predicted probability (deciles)", fontsize=7)
     axes[0].set_ylabel("observed share with true species listed (y)", fontsize=7); axes[0].legend(fontsize=6.5)
-    fig.suptitle("Bombus, hapshared: calibration with training libraries rebuilt without the held-out region (v11)",
+    fig.suptitle("Bombus, hapshared: calibration with training libraries rebuilt without the held-out region",
                  x=0.01, ha="left", fontsize=8.5, y=1.02)
     save(fig, "FigS7_calibration")
 

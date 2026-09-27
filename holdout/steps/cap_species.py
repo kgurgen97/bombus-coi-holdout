@@ -1,4 +1,4 @@
-"""v9 computational cap (docs_v9/PROTOCOL_v9.md, pre-registered).
+"""Computational cap on records per species (rule fixed before the v9 downloads).
 If the main dataset has > 15,000 records, keep a seeded random 200 records of
 every species with > 200 main records; the rest become excluded
 ('computational_cap'). Uncapped copies are kept. No-op otherwise."""
