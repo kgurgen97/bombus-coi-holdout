@@ -1,0 +1,16 @@
+{
+  "frozen_date": "2026-09-25",
+  "seed": 20260924,
+  "nn_min_overlap": 300,
+  "tie_tolerance": 1e-6,
+  "strict_identity_min_overlap": 500,
+  "strict_identity_sensitivity": [300, 640],
+  "second_method": {"name": "kmer_cosine_nn", "k": 6},
+  "random_cv_folds": 5,
+  "within_block_min_queries": 10,
+  "controls_replicates": 200,
+  "bootstrap_replicates": 10000,
+  "temporal_periods": [[0, 2009], [2010, 2013], [2014, 2018], [2019, 9999]],
+  "coord_kmeans_k": 21,
+  "eligibility": "v3 (>=20 seq, >=2 records in >=3 blocks, >=2 testable blocks, <10% conspecific outliers)"
+}
